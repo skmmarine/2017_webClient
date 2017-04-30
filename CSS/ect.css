@@ -1,0 +1,78 @@
+li{
+	display: inline;
+	font-family:"Comic Sans MS",cursive,Sans-serif;
+}
+
+li a{
+	font-weight: bold;
+	font-size : 20px;
+	text-decoration: none;
+	color : #555;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	margin-right: 25px;
+}
+
+h1{
+	font-family:"Comic Sans MS",cursive,Sans-serif;
+	font-style: italic;
+}
+
+nav li:nth-child(n+4){
+	margin-right: 4px;
+	float: right;
+}
+
+.textred{
+	color: red;
+}
+
+.textgray{
+	color:gray;
+}
+.textblack{
+	color:black;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.information{
+	position: relative;
+	bottom: 0px;
+	background-color: #303030;
+	margin-right: -10px;
+	margin-left: -10px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+
+.introdiv{
+	width: 100%;
+	font-size: 18px;
+}
+
+.clearleft{
+	clear: left;
+}
+
+.floatright{
+	float: right;
+	margin-right: 10px;
+}
+
+.namecolor{
+	color:#f39800
+}
+
+.main_logo_kookmin{
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+#calendarimage {
+	width: 300px; height: 300px; 
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,49 @@
+div.top_layout{
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	box-shadow: 0 3px 2px 0 #777;
+	background-color: powderblue;
+	display: inline;
+	overflow: hidden;
+
+}
+div.main_logo {
+	margin-top: 4%;
+	margin-left: -10px;
+	margin-right: -10px;
+	overflow: hidden;
+	background-color: LightSlateGray;
+
+	color: white;
+	text-align: center;
+}
+div.main_logo p::first-letter{
+	color:black;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+div a:hover{
+	color: #fff;
+    text-shadow: -1px 1px 5px #03c, 1px -1px 5px #03c;
+	
+}
+div#introduce {
+	margin-top: 100px;
+}
+div#introduce p{
+	text-align: center;
+}
+
+div>div{
+	display: inline-block;
+}
+
+div#calendar{
+	margin-bottom: 50px;
+	background-color: Azure;
+}
+

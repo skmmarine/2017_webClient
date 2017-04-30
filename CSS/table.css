@@ -1,0 +1,44 @@
+table{
+	border-collapse: collapse;
+	border:3px solid #111;
+}
+tr>th {
+	border:3px solid #111;
+	width: 50px;
+	font-family:"Comic Sans MS",cursive,Sans-serif;
+}
+
+table#daycalendar td{
+	vertical-align: super;
+	font-size: 80%;
+	height: 40px;
+	width: 75px;
+}
+
+table td:hover{
+	background-color: Gainsboro ;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+table#weekly td {
+	height: 56px;
+}
+
+table tr:nth-child(1){
+	background-color: Greenyellow;
+}
+
+table#weekly td{
+	width: 400px;
+	text-align: center;
+}
+
+table#monthly th{
+	width: 1500px;
+	
+}
+table#monthly{
+	margin-top: 20px;
+	text-align: center;
+}
